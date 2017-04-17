@@ -10,7 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Documents/Ecole Licence Sciences Co/3eme année/Semestre 6/TAL/Projet/jdom-2.0.6.zip!/" />
+          <root url="jar://$USER_HOME$/Documents/Ecole Licence Sciences Co/3eme année/Semestre 6/TAL/Projet/jdom-2.0.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,16 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Documents/Ecole Licence Sciences Co/3eme année/Semestre 6/TAL/Projet/jdom-2.0.6.jar!/" />
+          <root url="jar://$USER_HOME$/Documents/Ecole Licence Sciences Co/3eme année/Semestre 6/TAL/TD1/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0-models.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Ecole Licence Sciences Co/3eme année/Semestre 6/TAL/TD1/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
