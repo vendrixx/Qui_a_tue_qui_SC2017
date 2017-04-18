@@ -16,7 +16,7 @@ public class Sentences {
     public String toString() {
         String str = "  Un noeud sentences qui contient : ";
         for(Sentence s : listSentence)
-            str += "\n\n        " + s;
+            str += "\n        " + s;
         return str;
     }
 }

@@ -14,7 +14,7 @@ public class Document {
     }
 
     public String toString() {
-        String str = " Un noeud sentences contient : ";
+        String str = " Un noeud document contient : ";
         for(Sentences s : listSentences)
             str += "\n  " + s;
         return str;
