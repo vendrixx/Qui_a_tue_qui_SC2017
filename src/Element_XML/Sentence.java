@@ -18,17 +18,17 @@ public class Sentence {
         this.id = id;
     }
 
-    /*public String toString() {
+    public String toString() {
         String str = "  Un noeud sentence d'id " + this.id + " qui contient : ";
         for(Tokens t : listTokens)
             str += "\n        " + t;
         return str;
-    }*/
+    }
 
-    public String toString() {
+    /*public String toString() {
         String str = "";
         for(Tokens t : listTokens)
             str += t;
         return str;
-    }
+    }*/
 }

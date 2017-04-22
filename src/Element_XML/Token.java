@@ -55,10 +55,7 @@ public class Token {
     }
 
     public String toString() {
-        //return "    Token n°" + id + "[word=" + word + ",lemma=" + lemma + ",POS=" + POS + ",NER=" + NER + "]";
-        /*if(word == null)
-            return "            Token n°" + id + " WORD";
-        else return "            Token n°" + id + " [word=" + lemma + "]";*/
-        return word + " ";
+        return "    Token n°" + id + "[word=" + word + ",lemma=" + lemma + ",POS=" + POS + ",NER=" + NER + "]";
+
     }
 }

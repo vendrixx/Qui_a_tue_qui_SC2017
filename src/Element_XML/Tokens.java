@@ -13,17 +13,17 @@ public class Tokens {
         this.listToken.add(t);
     }
 
-    /*public String toString() {
+    public String toString() {
         String str = "      Un noeud tokens qui contient : ";
         for(Token t : listToken)
             str += "\n        " + t;
         return str;
-    }*/
+    }
 
-    public String toString() {
+    /*public String toString() {
         String str = "";
         for(Token t : listToken)
             str += t;
         return str;
-    }
+    }*/
 }
