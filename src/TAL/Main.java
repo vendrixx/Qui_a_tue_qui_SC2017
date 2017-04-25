@@ -61,11 +61,7 @@ public class Main {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } //catch (MySaxTerminatorException e) {
-
-        //}
+        }
     }
-
-        public class MySaxTerminatorException extends SAXException {}
 
 }

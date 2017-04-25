@@ -14,8 +14,6 @@ import java.util.HashSet;
  */
 public class MyXMLHandler extends DefaultHandler {
 
-    //private final String lastElementToRead;
-
     private String node = null;
     private Root root;
     private Document document;
@@ -26,17 +24,10 @@ public class MyXMLHandler extends DefaultHandler {
 
     private ArrayList killer = new ArrayList();
 
-    private final StringBuilder stringBuilder = new StringBuilder(64);
-    private boolean elementOn = false;
-    private String elementValue = null;
-
     private String tagCourant = "";
 
     private String word = "";
 
-    /*public MyXMLHandler(String lastElementToRead) {
-        this.lastElementToRead = lastElementToRead;
-    }*/
 
     public void notationDecl(String name, String publicId, String systemId) {
         System.out.println(name + " - " + publicId + " - " + systemId);
@@ -179,5 +170,4 @@ public class MyXMLHandler extends DefaultHandler {
     public Root getRoot() { return root; }
     public ArrayList getKiller() { return killer; }
 
-    public class MySaxTerminatorException extends SAXException {}
 }
